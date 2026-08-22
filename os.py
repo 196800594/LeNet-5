@@ -17,7 +17,6 @@ full_target = os.path.join(raw_path, target_file)
 
 print("-" * 30)
 if os.path.exists(full_target):
-    print(f"✅ 成功找到目标文件: {target_file}")
+    print(f"成功找到目标文件: {target_file}")
 else:
-    print(f"❌ 未找到目标文件: {target_file}")
-    print("💡 提示：请对比上面列出的‘发现文件’，看是不是多了后缀？")
+    print(f"未找到目标文件: {target_file}")
